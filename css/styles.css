@@ -1,22 +1,41 @@
-body {
-    background-image: linear-gradient(2deg, #5c4742, #8d5b4c);
+body{
+    background-image: linear-gradient(2deg, #2257a5, #8cb7f7);
+    background-repeat: no-repeat;
     font-family: Arial, Times, sans-serif;
+    background-size: 100% 100%;
+    min-height: 100vh; /*sets to 100% of screen size */
   }
 
 #container {
     background-color: white;
-    max-height: 1000px; 
+    
     width: 80%;
     padding: 30px;
     border-style: inset;
-    border-color: #8d5b4c;
+    border-color: #2257a5;
     border-width: 30px;
     margin: 20px auto; 
     /* auto made the width equal on both sides of container */
     /*See notes for graphic on margin, border, padding, content*/
+    min-height: 80vh; /*sets to 100% of screen size */
 }
 
-header h1 {
+#headershark{
+display: inline-block;  
+
+  }
+
+#headershark2{
+    display: inline-block;  
+      
+      }
+  #headercontainer{ /*search CSS flex box */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+body h1 {
 color #666666;
 text-align: center;
 font-size: 55px;
@@ -31,14 +50,14 @@ padding: 0;
 
 nav li{
 display: inline-block; /*makes list in one line for a toolbar */
-border-left: 1px solid #5c4742;
+border-left: 1px solid #2257a5;
 font-size: 16px;
 text-align: center;
 
 }
 
 nav li:last-of-type {  /*adds the border to the last element in the list */
-border-right:1px solid #5c4742;
+border-right:1px solid #2257a5;
 font-size:16 px;
 }
 
@@ -61,7 +80,7 @@ a:link {
 
   /* mouse over link */
   a:hover {
-    color: #8d5b4c;
+    color: #2257a5;
   }
 
   /* selected link */

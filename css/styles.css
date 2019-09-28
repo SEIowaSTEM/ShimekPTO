@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient(2deg, #5c4742, #8d5b4c);
+    font-family: Arial, Times, sans-serif;
+  }
+
+#container {
+    background-color: white;
+    max-height: 1000px; 
+    width: 80%;
+    padding: 30px;
+    border-style: inset;
+    border-color: #8d5b4c;
+    border-width: 30px;
+    margin: 20px auto; 
+    /* auto made the width equal on both sides of container */
+    /*See notes for graphic on margin, border, padding, content*/
+}
+
+header h1 {
+color #666666;
+text-align: center;
+font-size: 55px;
+}
+
+nav ul {
+list-style: none; /*removes bullets in front of list elements */
+text-align: center;
+padding: 0;
+}
+
+
+nav li{
+display: inline-block; /*makes list in one line for a toolbar */
+border-left: 1px solid #5c4742;
+font-size: 16px;
+text-align: center;
+
+}
+
+nav li:last-of-type {  /*adds the border to the last element in the list */
+border-right:1px solid #5c4742;
+font-size:16 px;
+}
+
+nav a{ /*modifies the anchor elements */
+text-decoration: none;
+padding: 15px;
+
+
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #8d5b4c;
+  }
+
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+
+  img{
+      float: center;
+      margin-right: 10px;
+  }
+main{
+
+}
+
+footer{
+    text-align: center;
+}
+footer li{
+
+text-align: center;
+display: inline-block;
+list-style: none;
+
+}
+
+
+  /* h1 {
+    color: blue;
+  }
+  p {
+    color: rgba(0,0,0);
+  } */ 
